@@ -1,0 +1,33 @@
+:root {
+  --color-principal: #ed6436;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: 'Nunito', sans-serif;
+}
+
+.cabecera {
+  height: 110px;
+  box-shadow: 0 0px 5px rgba(0, 0, 0, 0.3);
+}
+
+.cabecera ul li {
+  line-height: 38px;
+  font-weight: bold;
+}
+
+.boton-cabecera {
+  font-weight: bold;
+}
+
+.boton-cabecera-especial {
+  font-weight: bold;
+  border-radius: 0 20px 20px 20px;
+  border: 2px solid var(--color-principal);
+}
+
+.logo-cabecera {
+  height: 50px;
+  margin-left: 50px;
+}
