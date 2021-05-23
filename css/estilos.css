@@ -1,3 +1,4 @@
+
 .container{
     margin-top: 10%;
     
@@ -49,4 +50,71 @@
 .img-fluid{
     width:430px; 
     height:500px;
+}
+:root {
+  --color-principal: #ed6436;
+}
+
+* {
+  font-family: 'Nunito', sans-serif;
+}
+
+.cabecera {
+  height: 110px;
+  box-shadow: 0 0px 5px rgba(0, 0, 0, 0.3);
+  font-size: 17px;
+}
+
+.elemento-nav {
+  color: black !important;
+  font-weight: bold;
+}
+
+.elemento-nav+.elemento-nav {
+  border-radius: 0;
+  /* border: none; */
+}
+
+.elemento-nav+.elemento-nav:hover .elemento-nav, .elemento-nav:first-child:hover a {
+  color: var(--color-principal) !important;
+  border-bottom: 3px solid var(--color-principal);
+}
+
+.elemento-dropdown:last-child {
+  margin-bottom: 6px;
+}
+
+.boton-cabecera {
+  font-weight: bold;
+}
+
+.boton-cabecera-especial {
+  font-weight: bold;
+  height: 66px;
+  width: 175px;
+  border-radius: 0 33px 33px 33px;
+  border: 3px solid var(--color-principal);
+}
+
+.button-desplegable:focus {
+  box-shadow: none;
+}
+
+.elemento-dropdown {
+  border-bottom: 1px solid #ccc;
+}
+
+.elemento-dropdown:hover {
+  color: var(--color-principal) !important;
+}
+
+.boton-cabecera-especial:hover {
+  color: white;
+  background-color: var(--color-principal);
+  border: none;
+}
+
+.logo-cabecera {
+  height: 50px;
+  margin-left: 50px;
 }
