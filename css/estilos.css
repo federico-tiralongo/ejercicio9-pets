@@ -10,10 +10,11 @@
 .cabecera {
   height: 110px;
   box-shadow: 0 0px 5px rgba(0, 0, 0, 0.3);
+  font-size: 17px;
 }
 
-.cabecera ul li {
-  line-height: 38px;
+.elemento-nav {
+  color: black !important;
   font-weight: bold;
 }
 
@@ -23,11 +24,35 @@
 
 .boton-cabecera-especial {
   font-weight: bold;
-  border-radius: 0 20px 20px 20px;
-  border: 2px solid var(--color-principal);
+  height: 66px;
+  width: 175px;
+  border-radius: 0 33px 33px 33px;
+  border: 3px solid var(--color-principal);
+}
+
+.button-desplegable:focus {
+  box-shadow: none;
+}
+
+.elemento-dropdown {
+  border-bottom: 1px solid #ccc;
+}
+
+.elemento-dropdown:hover {
+  color: var(--color-principal)
+}
+
+.boton-cabecera-especial:hover {
+  color: white;
+  background-color: var(--color-principal);
+  border: none;
 }
 
 .logo-cabecera {
   height: 50px;
   margin-left: 50px;
 }
+
+/* .navbar .navbar-toggler-icon {
+  background-image: url(/img/logo2.png);
+} */
