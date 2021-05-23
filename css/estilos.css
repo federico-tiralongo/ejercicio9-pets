@@ -18,6 +18,20 @@
   font-weight: bold;
 }
 
+.elemento-nav+.elemento-nav {
+  border-radius: 0;
+  /* border: none; */
+}
+
+.elemento-nav+.elemento-nav:hover .elemento-nav {
+  color: var(--color-principal) !important;
+  border-bottom: 3px solid var(--color-principal);
+}
+
+.elemento-dropdown:last-child {
+  margin-bottom: 6px;
+}
+
 .boton-cabecera {
   font-weight: bold;
 }
@@ -35,11 +49,12 @@
 }
 
 .elemento-dropdown {
+  color: black !important;
   border-bottom: 1px solid #ccc;
 }
 
 .elemento-dropdown:hover {
-  color: var(--color-principal)
+  color: var(--color-principal) !important;
 }
 
 .boton-cabecera-especial:hover {
