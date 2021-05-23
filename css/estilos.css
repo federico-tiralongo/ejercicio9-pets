@@ -3,7 +3,6 @@
 }
 
 * {
-  box-sizing: border-box;
   font-family: 'Nunito', sans-serif;
 }
 
@@ -23,7 +22,7 @@
   /* border: none; */
 }
 
-.elemento-nav+.elemento-nav:hover .elemento-nav {
+.elemento-nav+.elemento-nav:hover .elemento-nav, .elemento-nav:first-child:hover a {
   color: var(--color-principal) !important;
   border-bottom: 3px solid var(--color-principal);
 }
@@ -49,7 +48,6 @@
 }
 
 .elemento-dropdown {
-  color: black !important;
   border-bottom: 1px solid #ccc;
 }
 
@@ -67,7 +65,3 @@
   height: 50px;
   margin-left: 50px;
 }
-
-/* .navbar .navbar-toggler-icon {
-  background-image: url(/img/logo2.png);
-} */
