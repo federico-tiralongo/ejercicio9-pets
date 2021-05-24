@@ -6,6 +6,7 @@
 .card{
     position: relative;
     overflow:hidden;
+    margin-bottom: 50px;
 
 } 
 .card:before{
@@ -24,10 +25,12 @@
     left: 0%;
 }
 .card img{
+    object-fit: none; /* Do not scale the image */
+    object-position: center; /* Center the image within the element */
     width: 100%;
-    height: 500px;
-    width: 430px;
-   
+    height: 521px;
+    width: 436px;
+
 }
 .card-text{
     width: 100%;
@@ -47,10 +50,9 @@
     text-align: center;
 }
 
-.img-fluid{
-    width:430px; 
-    height:500px;
-}
+
+  
+
 :root {
   --color-principal: #ed6436;
 }
