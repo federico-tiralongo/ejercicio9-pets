@@ -6,7 +6,9 @@
     position: relative;
     overflow:hidden;
     margin-bottom: 50px;
-
+    width: 100%;
+    border: none;
+    
 } 
 .card:before{
     position: absolute;
@@ -72,6 +74,7 @@ h1 {
 .card {
   position: relative;
   overflow: hidden;
+  width: 100%;
 }
 
 .card:before {
@@ -120,6 +123,7 @@ h1 {
 .img-fluid {
   width: 430px;
   height: 500px;
+  max-width: 100%;
 }
 
 .cabecera {
